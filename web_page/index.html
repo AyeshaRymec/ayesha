@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="mycontroller" lang="en">
+<head>
+    <script type="text/javascript" src="./lib/angular.min.js"></script>
+    <script type="text/javascript" src="./src/contoller/controller.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+
+<header style="background-color: black; color: antiquewhite">
+  <h1 style="display: inline; color: antiquewhite; margin-left: 15px"> {{title}}</h1>
+<button ng-click="onButtonClick()">click me</button>
+  <nav style="text-align: right">
+    <a href="#" style="text-align: right; display: inline; color: antiquewhite">HOME</a>
+    <a href="#" style="text-align: right; display: inline; color: antiquewhite">ABOUT US</a>
+
+
+      <a href="#" style="text-align: right; display: inline; color: antiquewhite">CONTACT US</a>
+      <!-- Inside the <nav> element in the first code -->
+<a href="#" style="text-align: right; display: inline; color: antiquewhite" ng-click="navigateToContact()">CONTACT US</a>
+
+    </nav>
+
+
+  <table class="container">
+    <tr>
+      <td>
+        <img src="main.jpg" alt="cafe image" width="900" height="600">
+      </td>
+      
+      <td class="right-column">
+        <h1 class="heading">welcome to cafe delight</h1>
+        <p class="tagline">discover the bst coffee</p>
+        <a href="./contactUs.html" class="contact-button">Contact Us</a>
+       
+
+        <style>
+           .contact-button {
+             padding: 3px 5px;
+             background-color: rgba(244, 229, 229, 0.868);
+             color: rgba(252, 242, 242, 0.897);
+             border-radius: 5px;
+             text-decoration: none;
+           }
+           
+           .contact-button:hover {
+             background-color: gray;
+           }
+        </style>
+      </td>
+    </tr>
+
+<header>
+  <!-- existing header -->
+</header>
+
+<table class="container">
+  <tr>
+   <!-- existing content -->
+  </tr>
+</table>
+<body ng-app="app" ng-controller="mycontroller">
+  <h2>{{title}}</h2>
+  <button ng-click="onButtonClick()">click me</button>
+
+<h1 style="text-align:center;">Welcome to the relaxation world</h1>
+  <h2 style="text-align:center;">try our medicine</h2>
+<table class="cafe"  style="text-align: center; margin: auto;"width:100% >
+  
+  <tr>
+    <td>
+      <img src="./c1.avif" alt="c1" width="140" height="100" style="text-align: center; margin: 15px;border-radius: 15px;">
+      <p>Coffee 1</p>
+      <p>$19.00</p>
+      <a href="./buynow.html">Buy Now</a>
+    </td>
+    <td>
+      <img src="./c2.avif" alt="c2" width="140"height="100"  style="text-align: center; margin: 15px;border-radius: 15px;">
+      <p>Coffee 2</p>
+      <p>$20.00</p>
+      <a href="./buynow.html">Buy Now</a>
+    </td>
+    <td>
+      <img src="./c3.jpg" alt="c3" width="140" height="100" style="text-align: center; margin: 15px;border-radius: 15px;">
+      <p>Coffee 3</p>
+      <p>$22.00</p>
+      <a href="./buynow.html">Buy Now</a>
+    </td>
+  </tr>
+  <tr>
+    <td >
+      <img src="./c4.avif" alt="c4" width="140"  height="100" style="text-align: center; margin: 15px;border-radius: 15px;">
+      <p>Coffee 4</p>
+      <p>$29.00</p>
+      <a href="./buynow.html">Buy Now</a>
+    </td>
+    <td>       
+      <img src="./c5.avif" alt="c5" width="140"  height="100" style="text-align: center; margin: 15px;border-radius: 15px;">
+      <p>Coffee 5</p>
+      <p>$59.00</p>
+      <a href="./buynow.html">Buy Now</a>
+    </td>
+    <td>
+      <img src="./c6.jpg" alt="c6" width="140"  height="100" style="text-align: center; margin: 15px; border-radius: 15px;">
+      <p>Coffee 6</p>
+      <p>$69.00</p>
+      <a href="./buynow.html">Buy Now</a>
+    </td>
+  </tr>
+
+</table>
+</body>
+</html>
